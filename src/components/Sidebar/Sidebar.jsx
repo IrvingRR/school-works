@@ -5,9 +5,9 @@ import {ButtonIcon} from '../Buttons/Buttons';
 const Sidebar = function ({isActiveSidebar, handleActiveSidebar}) {
 
     return(
-        <Container isActiveSidebar={isActiveSidebar.toString()}>
-            <Header isActiveSidebar={isActiveSidebar.toString()}>
-                <Logo to="dashboard" isActiveSidebar={isActiveSidebar.toString()}>
+        <Container isactivesidebar={isActiveSidebar.toString()}>
+            <Header isactivesidebar={isActiveSidebar.toString()}>
+                <Logo to="dashboard" isactivesidebar={isActiveSidebar.toString()}>
                     <BiBookOpen/>
                     <h2>School<span>Works</span></h2>
                 </Logo>

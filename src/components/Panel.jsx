@@ -5,7 +5,7 @@ import HeaderPanel from './HeaderPanel/HeaderPanel';
 
 const Panel = function() {
 
-    const [isActiveSidebar, setIsActiveSidebar] = useState(true);
+    const [isActiveSidebar, setIsActiveSidebar] = useState(false);
 
     const handleActiveSidebar = () => setIsActiveSidebar(!isActiveSidebar);
 

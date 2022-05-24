@@ -21,7 +21,7 @@ export const Container = styled.aside`
         svg {font-size: 25px;}
     }
 
-    ${props => props.isActiveSidebar === 'false' && css`
+    ${props => props.isactivesidebar === 'false' && css`
         width: 100px;
         overflow: hidden;
 
@@ -47,7 +47,7 @@ export const Container = styled.aside`
 
         .buttonClosed {display: block}
 
-        ${props => props.isActiveSidebar === 'false' && css`
+        ${props => props.isactivesidebar === 'false' && css`
             transform: translateX(-100%);
         `}
     }

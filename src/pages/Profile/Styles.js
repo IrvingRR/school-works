@@ -61,3 +61,19 @@ export const Image = styled.img`
     border-radius: 100%;
     margin: auto;
 `;
+
+// Button File
+export const ButtonFile = styled.button`
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px dashed var(--gray-white-color);
+    display: flex;
+    align-items: center;
+    border-radius: var(--radius);
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+`;

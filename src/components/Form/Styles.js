@@ -28,6 +28,7 @@ export const FormInputs = styled.div`
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-bottom: 10px;
 
     ${props => props.grid && css`
         display: grid;

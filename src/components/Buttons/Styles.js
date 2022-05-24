@@ -11,6 +11,7 @@ export const PrimaryButton = styled.button`
     color: #fff;
     border-radius: var(--radius);
     font-size: 13px;
+    position: relative;
 
     &:hover {background: var(--primary-color-hover);}
 

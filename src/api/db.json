@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "name": "Irving",
+      "lastname": "Rodríguez",
+      "email": "irving@gmail.com",
+      "role": "Student",
+      "status": "Active",
+      "image": "C:\\fakepath\\3f39410d0e6da7cacc8b6f4260bfd6d4.jpg",
+      "password": "U2FsdGVkX18hz8da/HvB0/N7AF2CRsyvu835mLIclo4=",
+      "id": 1
+    }
+  ],
+  "teachers": [],
+  "categories": [],
+  "works": []
+}
